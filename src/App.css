@@ -1,0 +1,104 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;   /* Horizontal center */
+  align-items: center;       /* Vertical center */
+  min-height: 100vh;         /* Full screen height */
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title */
+.title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Card style */
+.card {
+  width: 650px;
+  margin: 20px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Form */
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Add button */
+.add-btn {
+  padding: 10px 20px;
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #2e59d9;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Delete button */
+.delete-btn {
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* No data text */
+.no-data {
+  font-weight: bold;
+  padding: 10px;
+}
